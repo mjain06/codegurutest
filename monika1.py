@@ -7,6 +7,7 @@ fake = Faker()
 a=1
 b=2
 c=3
+a=1
 
 
 def get_most_frequent_email_domain():
