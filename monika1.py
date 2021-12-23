@@ -4,7 +4,9 @@ from datetime import datetime
 
 
 fake = Faker()
-
+a=1
+b=2
+c=3
 
 
 def get_most_frequent_email_domain():
@@ -24,5 +26,15 @@ def get_most_frequent_email_domain():
 if __name__ == '__main__':
     print(get_most_frequent_email_domain())
     
-print("hello w
+print("hello world") 
+print("hello world") 
+
+if a==1:
+    if b==2:
+        if c==3:
+            return true
+        else:
+            return false
+    
+    
 
