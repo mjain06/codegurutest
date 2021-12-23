@@ -30,6 +30,12 @@ if __name__ == '__main__':
 print("hello world") 
 print("hello world") 
 
+def setdefault_example():
+    std_dict = dict()
+    for k, v in enumerate(range(5)):
+        std_dict.setdefault(k, []).append(v)
+    return std_dict
+
 if a==1:
     if b==2:
         if c==3:
