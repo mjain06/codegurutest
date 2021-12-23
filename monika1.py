@@ -46,7 +46,7 @@ if a==1:
             return true 
         else
         
-        operations_count = 0
+       
  
 def main():
     ask_again = True
