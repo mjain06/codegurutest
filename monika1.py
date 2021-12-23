@@ -36,6 +36,9 @@ if a==1:
             return true
         else:
             return false
+        if a==1:
+            return true 
+        else
     
     
 
