@@ -24,3 +24,4 @@ class AppModule extends Module {
       bind[ActorRef].qualifiedWith("catalogActor").toInstance(actorContext.catalogActor),
       bind[ActorRef].qualifiedWith("basketActor").toInstance(actorContext.basketActor()))
 }
+print(
