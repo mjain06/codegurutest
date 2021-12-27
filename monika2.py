@@ -55,3 +55,5 @@ class SynchronizeProxy(object):
             pmeth(key, value)
             
      print("h
+           if a :
+           if b:
