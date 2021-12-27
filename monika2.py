@@ -53,3 +53,5 @@ class SynchronizeProxy(object):
             att = getattr(self._obj, name)
             pmeth = SynchronizeMethodWrapper(self, att, name, self.rlock)
             pmeth(key, value)
+            
+     print("h
